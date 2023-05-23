@@ -46,27 +46,65 @@
      height: 350px;
     
  }
- 
- .picture-container {
-    display: flex;
-
-    
-
-}
 
 
- .picture-container div { 
-    background-color: white;
-    flex: 1;
-    height: 350px;
-    }
 
 .text-container {
     display: flex;
     background-color: lightgray;
-    height: 200px;
+    color: ##1F2937;
+    height: 250px;
     font-size: 26px;
     align-items: center;
     justify-content: center;
-    padding: 50px;
+    padding-top: 30px;
+    padding-left: 30px;
 }
+
+.picture-container {
+    display: flex;
+    height: 300px;
+    padding: 20px;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.picture-item {
+    width: 160px;
+    height: 160px;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #3882F6;
+    border-radius: 25px;
+
+}
+
+.pic-in-container {
+    width: 160px;
+    height: 160px;
+    border-radius: 20px;
+}
+
+.pic-container-text {
+    font-size: 36px;
+    text-align: center;
+    padding-top: 18px;
+}
+
+.text-container1 {
+    font-style: italic;
+    color: ##1F2937;
+}
+
+
+
+
+
+
+
+
+
+
+width: 160px;
+    height: 160px;
