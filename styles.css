@@ -7,6 +7,27 @@
 
 }
 
+.home {
+    display: flex;
+    flex: 1;
+    font-size: 22px;
+    align-items: center;
+   
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    background-color: transparent;
+    color: lightblue;
+    text-decoration: none;
+
+}
+
 
  .head-container-nav { 
      display: flex;
@@ -21,8 +42,8 @@
 
 
 .logo {
-    width: 130px;
-    height: 130px;
+    width: 220px;
+    height: 200px;
     padding-left: 50px;
 }
 
@@ -44,11 +65,12 @@
 
 }
 
+
 .intro-item1 {
     flex: 1;
     height: 200px;
     width: 300px;
-    font-size: 48px;
+    font-size: 50px;
     text-align: left;
    color: white;
    padding: 30px;
@@ -83,12 +105,25 @@ button {
     border-radius: 20px;
     height: 24px;
     width: 10em;
-    border: 5px #3882F6;
+    border: 5px white;
     font-size: 15px;
     color: white;
 
 
     
+}
+
+.intro-container-left {
+    display: flex;
+    height: 500px;
+    background-color: white;
+    
+    
+}
+
+.intro-item4 {
+
+
 }
  
 
